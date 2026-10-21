@@ -103,7 +103,7 @@ if CVersion==nil then
 	end
 	
 	-- Core file integrity checking for uaRO modified version
-	if fsize("./AI/USER_AI/AzzyUtil.lua")==85856 then
+	if fsize("./AI/USER_AI/AzzyUtil.lua")==85905 then
 		AzzyUtilVers="Default uaRO version"
 	else
 		AzzyUtilVers="Custom, modified from uaRO baseline"
@@ -117,7 +117,7 @@ if CVersion==nil then
 		ErrorCode="File integrity warning"
 		ErrorInfo=ErrorInfo.."Const_.lua has been modified from expected uaRO version\n"
 	end
-	if fsize("./AI/USER_AI/AI_main.lua")==131199 then
+	if fsize("./AI/USER_AI/AI_main.lua")==131197 then
 		MainVers="Default uaRO version"
 	else
 		MainVers="Custom, modified from uaRO baseline"
